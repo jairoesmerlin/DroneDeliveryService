@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneDeliveryService", "DroneDeliveryService\DroneDeliveryService.csproj", "{A70549CD-EEA9-4E07-9C2F-B23D395C2FED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneDeliveryServiceTest", "DroneDeliveryServiceTest\DroneDeliveryServiceTest.csproj", "{2AE7A76E-881E-4168-8B20-C8220172DDFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A70549CD-EEA9-4E07-9C2F-B23D395C2FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70549CD-EEA9-4E07-9C2F-B23D395C2FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70549CD-EEA9-4E07-9C2F-B23D395C2FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE7A76E-881E-4168-8B20-C8220172DDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE7A76E-881E-4168-8B20-C8220172DDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE7A76E-881E-4168-8B20-C8220172DDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE7A76E-881E-4168-8B20-C8220172DDFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

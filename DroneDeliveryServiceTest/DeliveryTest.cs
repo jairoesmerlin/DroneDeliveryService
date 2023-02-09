@@ -1,19 +1,14 @@
-﻿using DroneDeliveryService.Classes;
+﻿using DroneDeliveryService;
+using DroneDeliveryService.Classes;
+namespace DroneDeliveryServiceTest;
 
-namespace DroneDeliveryService
+public class DeliveryTest
 {
-    class Program
+    [Fact]
+    public void Drone_ShouldDeliverToAllLocations()
     {
-        static void Main(string[] args)
-        {
-            List<Drone> drones = new List<Drone>()
-            {
-                new Drone("DroneA", 200),
-                new Drone("DroneB", 250),
-                new Drone("DroneC", 100)
-            };
-
-            List<Location> locations = new List<Location>()
+        Drone drone = new Drone("DroneA", 200);
+        List<Location> locations = new List<Location>()
             {
                 new Location("[LocationA]", 200),
                 new Location("[LocationB]", 150),
@@ -33,16 +28,6 @@ namespace DroneDeliveryService
                 new Location("[LocationP]", 90)
             };
 
-            foreach (var drone in drones)
-            {
-                Console.WriteLine($"[{drone.Name}]");
-                drone.Deliver(locations);
-            }
-
-            Console.ReadKey();
-        }
+        drone.Deliver(locations);
     }
-
-
-
 }
